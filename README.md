@@ -193,21 +193,16 @@ docs/data_quality.md
 
 ```
 aws-imdb-movie-etl-pipeline/
-
 │
 ├── architecture/
-│   ├── aws_etl_architecture.png
-│
-├── screenshots/
-│
-├── sample-data/
-│
-├── sql/
-│
 ├── docs/
-│   ├── project_flow.md
-│   └── data_quality.md
-│
+├── output/
+│   ├── redshift_output_sample.csv
+│   ├── failed_records_sample.csv
+│   └── data_quality_report_sample.csv
+├── sample-data/
+├── screenshots/
+├── sql/
 └── README.md
 ```
 

@@ -1,16 +1,9 @@
 🎬 AWS Serverless ETL Pipeline for IMDb Movie Ratings
 
-
-![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
-
-![Amazon S3](https://img.shields.io/badge/Amazon-S3-blue)
-
-![Glue](https://img.shields.io/badge/AWS-Glue-orange)
-
+![AWS](https://img.shields.io/badge/AWS-Glue-orange)
 ![Redshift](https://img.shields.io/badge/Amazon-Redshift-red)
-
+![S3](https://img.shields.io/badge/Amazon-S3-blue)
 ![EventBridge](https://img.shields.io/badge/EventBridge-Event--Driven-purple)
-
 ![SNS](https://img.shields.io/badge/SNS-Notifications-yellow)
 
 

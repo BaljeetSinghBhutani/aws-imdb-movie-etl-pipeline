@@ -77,7 +77,7 @@ imdb_movie_ratings
 Input Table
 
 ```
-imdb_movies_rating
+input
 ```
 
 ---
@@ -103,7 +103,7 @@ Rules applied:
 IsComplete("imdb_rating")
 
 ColumnValues("imdb_rating")
-between 8.5 and 10.3
+between 8.5 and 10.0
 ```
 
 Records that fail validation are automatically separated from valid records.
@@ -196,8 +196,7 @@ aws-imdb-movie-etl-pipeline/
 
 │
 ├── architecture/
-│   ├── aws_etl_architecture.drawio
-│   └── aws_etl_architecture.png
+│   ├── aws_etl_architecture.png
 │
 ├── screenshots/
 │
@@ -224,49 +223,37 @@ aws-imdb-movie-etl-pipeline/
 
 ## AWS Glue Crawler
 
-![Crawler](screenshots/02_glue_crawler.png)
+![Crawler](screenshots/02_glue_crawler_input.png)
 
 ---
 
 ## Glue Data Catalog
 
-![Catalog](screenshots/03_glue_catalog.png)
+![Catalog](screenshots/03_glue_catalog_tables.png)
 
 ---
 
 ## Glue Visual ETL Job
 
-![ETL](screenshots/04_visual_etl.png)
-
----
-
-## Glue Data Quality Rules
-
-![DQ](screenshots/05_data_quality.png)
-
----
-
-## Conditional Router
-
-![Router](screenshots/06_conditional_router.png)
+![ETL](screenshots/04_visual_etl_job.png)
 
 ---
 
 ## Amazon Redshift
 
-![Redshift](screenshots/07_redshift.png)
+![Redshift](screenshots/05_redshift_table.png)
 
 ---
 
 ## EventBridge Rule
 
-![EventBridge](screenshots/08_eventbridge.png)
+![EventBridge](screenshots/06_eventbridge.png)
 
 ---
 
 ## Amazon SNS Notification
 
-![SNS](screenshots/09_sns.png)
+![SNS](screenshots/07_sns_topic.png)
 
 ---
 
@@ -291,10 +278,8 @@ This project helped me gain practical experience with:
 
 - Implement Incremental Data Loading
 - Add Change Data Capture (CDC)
-- Partition datasets in Amazon S3
+- Enable Job Bookmarking
 - Automate deployments using GitHub Actions
-- Provision infrastructure using Terraform
-- Add CloudWatch dashboards and alarms
 - Build analytical dashboards using Amazon QuickSight
 
 ---

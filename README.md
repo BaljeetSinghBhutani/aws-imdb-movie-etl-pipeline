@@ -1,4 +1,4 @@
-#🎬 AWS Serverless ETL Pipeline for IMDb Movie Ratings
+🎬 AWS Serverless ETL Pipeline for IMDb Movie Ratings
 
 
 ![AWS](https://img.shields.io/badge/AWS-Glue-orange)

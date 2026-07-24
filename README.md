@@ -171,7 +171,7 @@ Implemented Rules
 IsComplete("imdb_rating")
 
 ColumnValues("imdb_rating")
-between 8.5 and 10.3
+between 8.5 and 10.0
 ```
 
 This ensures:
